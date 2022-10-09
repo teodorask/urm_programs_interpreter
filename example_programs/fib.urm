@@ -1,0 +1,15 @@
+ZERO 1
+ZERO 2
+ZERO 3
+/add add.urm
+/quote JUMP 8
+JUMP 0 3 18
+INC 1
+INC 3
+JUMP 0 3 18
+/copy 1 4 2
+JUMP 11
+MOVE 1 2
+/copy 6 1 1
+INC 3
+JUMP 6
